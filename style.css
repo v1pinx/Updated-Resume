@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'Montserrat';
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background: rgb(0, 0, 0, 0.6) url(/Assets/header-bg.jpg);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 100vh;
+    
+ }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6% 0;
+}
+.left-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    color: white;
+    font-size: 170%;
+    font-weight: 800;
+
+}
+.right-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 14%;
+    font-weight: 500;
+}
+.right-nav li{
+    padding: 2% 10%;
+    /* margin: 2%; */
+}
+.right-nav a{
+    color: white;
+}
+.profile-photo{
+    text-align: center;
+    margin-top: 8%;
+}
+.profile-photo>img{
+    border-radius: 50%;
+    width: 10%;
+    border: 2px white solid;
+}
+.my-name{
+    text-align: center;
+    font-weight: 700;
+    font-size: 160%;
+    color: white;
+}
+.student{
+    text-align: center;
+    font-weight: 600;
+    font-size: 100%;
+    margin-top: 6px;
+    color: white;
+}
+.side-bar{
+    width: 50px;
+    height: 100vh;
+    /* background: linear-gradient(#00545d, #000729); */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
